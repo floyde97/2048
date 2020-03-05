@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 - custom build</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="./custom_style.css">
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./controller.js" type="module"></script>
+    <script src="./engine/game.js" type="module"></script>
+</head>
+
+<body>
+    <section class='hero is-small is-dark'>
+        <div class='hero-body'>
+            <div class='container has-text-centered'>
+                <h1 class='title'>2048</h1>
+            </div>
+        </div>
+
+    </section>
+    <div class='columns'>
+        <div class='column'>
+            <section class='section scoreAndReset'>
+                <div id='scorecontainer' class='container'>
+                    <p id='score' class='scorelabel has-text-weight-bold'>Score: 0</p>
+                </div>
+                <div class='container'>
+                    <button class='button' id='reset'>Reset Game</button>
+                </div>
+            </section>
+            <section class='section'>
+                <div class='container'>
+                    <div class=instructions>
+                        <h2 class='title'>How To Play:</h2>
+                        <p>Move the tiles together to combine tiles with the same value.
+                            Attempt to combine as many tiles to reach the winning goal of 2048.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class='column'>
+            <section class='section'>
+                <div id='area' class='container'>
+                    <div class='grid-container'>
+                        <div id='0' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='1' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='2' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='3' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='4' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='5' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='6' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='7' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='8' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='9' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='10' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='11' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='12' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='13' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='14' class='tile'>
+                            <p></p>
+                        </div>
+                        <div id='15' class='tile'>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div>
+        <p class='recognition'>2048 - recreated by Eric Floyd</p>
+    </div>
+</body>
+
+</html>
