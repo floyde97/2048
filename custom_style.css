@@ -3,32 +3,33 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
-    grid-template-rows: 200px 200px 200px 200px;
-    grid-gap: 10px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 5px;
     background-color: rgb(131, 131, 131);
-    padding: 75px;
+    padding: 35px;
 }
 
 div.tile {
     border-radius: 15px;
-    font-size: 75px;
+    font-size: 30px;
     font-weight: bold;
     align-items: center;
     justify-content: center;
 }
 
 .scorelabel {
-    font-size: 100px;
+    font-size: 35px;
+    padding-bottom: 10px;
 }
 
 h1.title {
-    font-size: 140px;
+    font-size: 50px;
     color: greenyellow !important;
 }
 
 #reset {
-    font-size: 50px;
-    border-radius: 25px;
+    font-size: 25px;
+    border-radius: 10px;
     background-color: greenyellow;
 }
 
@@ -38,6 +39,6 @@ h1.title {
 
 .instructions, .recognition {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
